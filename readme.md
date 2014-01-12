@@ -1,0 +1,5 @@
+# Flatifier — An internal Flaticons tool for generating icons from .psd files
+
+I made this tool for Zach Roszczewski's [Flaticons](http://flaticons.co), to help him generate a nice .zip of all the assets he needs for distribution. Basically, run `flatifier package {{psdFilePath}}`, and it spits out an .ai, .psd, and .pngs (1x, 2x, 3x, 4x) for each layer, creates a bunch of .svgs from the .ai files, generates a font using the svgs (using [Font Custom](http://fontcustom.com/)), and zips all that up. It's probably not very interesting or helpful to you unless you're battling with the Photoshop JS API like I did while making it; basically I just put it up here so I could publish it to NPM and get it to Zach easier, and maybe help some poor soul who's trying to export stuff from Photoshop in the future.
+
+If you really want to mess around with this for some reason, you can `npm install flaticons-flatifier -g`. MIT License, only tested on the Macs (and .psd layout) that Zach and I are using, no support, no guarantees that it will stay the same (or even continue to exist in this form) in the future, and all that stuff.
