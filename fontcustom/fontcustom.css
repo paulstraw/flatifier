@@ -1,0 +1,87 @@
+/*
+  Icon Font: fontcustom
+*/
+
+@font-face {
+  font-family: "fontcustom";
+  src: url("./fontcustom_41296521a37d1b1b9b5726307cee7c9a.eot");
+  src: url("./fontcustom_41296521a37d1b1b9b5726307cee7c9a.eot?#iefix") format("embedded-opentype"),
+       url("./fontcustom_41296521a37d1b1b9b5726307cee7c9a.woff") format("woff"),
+       url("./fontcustom_41296521a37d1b1b9b5726307cee7c9a.ttf") format("truetype"),
+       url("./fontcustom_41296521a37d1b1b9b5726307cee7c9a.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fontcustom";
+    src: url("./fontcustom_41296521a37d1b1b9b5726307cee7c9a.svg#fontcustom") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-Article-1:before,
+.icon-Battery-Full-1:before,
+.icon-Calendar-1:before,
+.icon-Call-1:before,
+.icon-Cart-1:before,
+.icon-Clipboard-1:before,
+.icon-Compose-1:before,
+.icon-Files-1:before,
+.icon-Folder-1:before,
+.icon-Grid-1:before,
+.icon-Iphone-1:before,
+.icon-Left-Text-1:before,
+.icon-Lock-1:before,
+.icon-Menu-1:before,
+.icon-Open-Book-1:before,
+.icon-Plus-1:before,
+.icon-Plus-2:before,
+.icon-Plus-3:before,
+.icon-Position-1:before,
+.icon-Previous-1:before,
+.icon-Previous-4:before,
+.icon-Settings-1:before,
+.icon-Star-1:before,
+.icon-Turn-Page-Down-1:before,
+.icon-User-1:before {
+  display: inline-block;
+  font-family: "fontcustom";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon-Article-1:before { content: "\f100"; }
+.icon-Battery-Full-1:before { content: "\f101"; }
+.icon-Calendar-1:before { content: "\f102"; }
+.icon-Call-1:before { content: "\f103"; }
+.icon-Cart-1:before { content: "\f104"; }
+.icon-Clipboard-1:before { content: "\f105"; }
+.icon-Compose-1:before { content: "\f106"; }
+.icon-Files-1:before { content: "\f107"; }
+.icon-Folder-1:before { content: "\f108"; }
+.icon-Grid-1:before { content: "\f109"; }
+.icon-Iphone-1:before { content: "\f10a"; }
+.icon-Left-Text-1:before { content: "\f10b"; }
+.icon-Lock-1:before { content: "\f10c"; }
+.icon-Menu-1:before { content: "\f10d"; }
+.icon-Open-Book-1:before { content: "\f10e"; }
+.icon-Plus-1:before { content: "\f10f"; }
+.icon-Plus-2:before { content: "\f110"; }
+.icon-Plus-3:before { content: "\f111"; }
+.icon-Position-1:before { content: "\f112"; }
+.icon-Previous-1:before { content: "\f113"; }
+.icon-Previous-4:before { content: "\f114"; }
+.icon-Settings-1:before { content: "\f115"; }
+.icon-Star-1:before { content: "\f116"; }
+.icon-Turn-Page-Down-1:before { content: "\f117"; }
+.icon-User-1:before { content: "\f118"; }

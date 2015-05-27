@@ -10,7 +10,8 @@
 	"dependencies": {
 		"commander": "~2.1.0",
 		"prompt": "~0.2.12",
-		"rimraf": "~2.2.5"
+		"rimraf": "~2.2.5",
+		"async": "~0.2.9"
 	},
 	"preferGlobal": true,
 	"bin": "./lib/flatifier.js"
