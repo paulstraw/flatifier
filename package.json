@@ -1,18 +1,18 @@
 {
-	"name": "flatifier",
-	"version": "1.0.0",
-	"description": "Generates and zips up all assets for a Flaticons set from its PSD file.",
-	"author": {
-		"name": "Paul Straw",
-		"email": "paulstraw@paulstraw.com",
-		"url": "http://paulstraw.com"
-	},
-	"dependencies": {
-		"commander": "~2.1.0",
-		"prompt": "~0.2.12",
-		"rimraf": "~2.2.5",
-		"async": "~0.2.9"
-	},
-	"preferGlobal": true,
-	"bin": "./lib/flatifier.js"
+  "name": "flatifier",
+  "version": "1.0.0",
+  "description": "Generates and zips up all assets for a Flaticons set from its PSD file.",
+  "author": {
+    "name": "Paul Straw",
+    "email": "paulstraw@paulstraw.com",
+    "url": "http://paulstraw.com"
+  },
+  "dependencies": {
+    "commander": "~2.1.0",
+    "prompt": "~0.2.12",
+    "rimraf": "~2.2.5",
+    "async": "~0.2.9"
+  },
+  "preferGlobal": true,
+  "bin": "./lib/flatifier.js"
 }
