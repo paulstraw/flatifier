@@ -9,9 +9,9 @@
 		fillColor = new RGBColor();
 
 	// #5D727C
-	fillColor.red = 93
-	fillColor.green = 114
-	fillColor.blue = 124
+	fillColor.red = 93;
+	fillColor.green = 114;
+	fillColor.blue = 124;
 
 	openOpts.convertCropAreaToArboard = true;
 	openOpts.preserveLegacyArtboard = false;

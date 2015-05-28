@@ -77,8 +77,14 @@
 		// }
 
 		// parse layerSet children
-		for (var j = 0; j < 1; j++) {
-		// for (var j = 0; j < artLayersLength; j++) {
+
+		// For Debugging - Set number of output icons to 25
+		// for (var j = 0; j < 1; j++) {
+		// 	exportIconLayer(layerSet.artLayers[j]);
+		// }
+
+		// The real deal - export ALL of the icons ~40min
+		for (var j = 0; j < artLayersLength; j++) {
 			exportIconLayer(layerSet.artLayers[j]);
 		}
 	}
